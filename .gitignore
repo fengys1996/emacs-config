@@ -9,3 +9,8 @@
 
 # Undo-tree save-files
 *.~undo-tree
+
+auto-save-list
+elpa
+tutorial
+.lsp-session-*
