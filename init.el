@@ -5,6 +5,7 @@
 (require 'base)
 (require 'elpa)
 (require 'ui)
+(require 'filetree)
 (require 'lsp)
 (require 'rust)
 
