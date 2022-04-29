@@ -6,6 +6,7 @@
 (require 'elpa)
 (require 'ui)
 (require 'evil-c)
+(require 'evil-leader)
 (require 'filetree)
 (require 'lsp)
 (require 'rust)

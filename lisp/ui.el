@@ -9,7 +9,7 @@
 (use-package emacs
     :config
     (setq display-line-numbers-type 'relative)
-    (set-face-attribute 'default nil :height 150)
+    (set-face-attribute 'default nil :height 100)
     (global-display-line-numbers-mode t))
 
 (provide 'ui)

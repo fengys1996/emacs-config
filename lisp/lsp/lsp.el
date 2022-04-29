@@ -1,14 +1,14 @@
 (use-package lsp-mode
     :commands (lsp lsp-deferred)
     :init
-    :hook (
-        (rust-mode . lsp-deferred)
-    )
     :config
     (setq lsp-auto-guess-root t
-	    lsp-headerline-breadcrumb-enable nil
-	    lsp-keymap-prefix "C-c l"
-	    lsp-log-io nil)
-    (define-key lsp-mode-map (kbd "C-c l") lsp-command-map))
+        lsp-rust-analyzer-server-display-inlay-hints t
+        lsp-rust-analyzer-inlay-hints-mode nil
+	    lsp-headerline-breadcrumb-enable t
+	    lsp-log-io nil))
+
+(use-package company)
+(use-package flycheck)
 
 (provide 'lsp)
